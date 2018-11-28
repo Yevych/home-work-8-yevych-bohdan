@@ -174,7 +174,6 @@ a.info-btn {
 }
 
 .section-number {
-  color: #111111;
   opacity: .1;
   font-family: "Open Sans", sans-serif;
   font-size: 195px;
@@ -239,4 +238,110 @@ dd {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+/* Practise */
+
+.practise {
+  padding: 100px 0 30px;
+  background-color: #111111;
+}
+
+.section-header-dark {
+  font-family: "Playfair Display", sans-serif;
+  border-left: 2px solid #e8bf5d;
+  color: #fff;
+  padding-left: 20px;
+  position: relative;
+}
+
+.section-header-dark h2 {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.section-header-dark p {
+  color: #b9b9b9;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.practise-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.practise-items h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.practise-items p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0 0 70px;
+}
+
+.left-col, .right-col {
+  padding-left: 80px;
+  margin-left: 100px;
+}
+
+.practise-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.practise-items ul li {
+  position: relative;
+}
+
+li.handshake:before {
+  content: '\f2b5';
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  font-size: 45px;
+  color: #e8bf5d;
+  left: -80px;
+}
+
+li.desktop:before {
+  content: '\f108';
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  font-size: 45px;
+  color: #e8bf5d;
+  left: -80px;
+}
+
+li.wrench:before {
+  content: '\f0ad';
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  font-size: 45px;
+  color: #e8bf5d;
+  left: -80px;
+}
+
+li.home:before {
+  content: '\f015';
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  font-size: 45px;
+  color: #e8bf5d;
+  left: -80px;
 }

@@ -1,0 +1,71 @@
+/* Basic */
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  padding: 35px 0;
+}
+
+.logo h1 {
+  margin: 0;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #111111;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.nav-list li a {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.nav-list li a:hover {
+  border-bottom: 5px solid #e8bf5d;
+}
